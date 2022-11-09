@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class Quadrato {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         int number = scanner.nextInt();
+        scanner.close();
 
         for (int i = 0; i < number; i++) {
             for (int j = 0; j < number; j++) {
