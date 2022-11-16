@@ -51,6 +51,8 @@ public class MetodiRicorsivi{
 
 class TestRicorsione{
     public static void main(String[] args) {
+        // l'utente deve inserire solamente il testo da analizzare e non gli indici quindi questi metodi devono
+        //essere inseriti in un wrap come nel metodo "cazzo riportato sotto"
         //System.out.println(MetodiRicorsivi.sommatoriaRicorsiva());
         //System.out.println(MetodiRicorsivi.trovaCarattere("testodiprova", 0, 'g'));
         //System.out.println(MetodiRicorsivi.contaCaratteri("ramarromarrone", 0, 'r', 0));
