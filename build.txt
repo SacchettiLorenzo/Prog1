@@ -1,0 +1,3 @@
+Build all file in one step: in the .java file directory
+javac -d ./build *.javac
+build refer to the directory called "build"
