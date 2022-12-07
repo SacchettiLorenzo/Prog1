@@ -47,8 +47,7 @@ public class ExamTest1{
 					result = false;
 					break;
 				}
-			}
-					//----------
+			
 					
 					int sommac;
 					int sommar;
@@ -57,20 +56,19 @@ public class ExamTest1{
 							sommar=0;
 						 for(int j = 0; j<mat[i].length; j++){
 							 
-							 System.out.println(sommac + "+" + mat[j][i]);
+							 //System.out.println(sommac + "+" + mat[j][i]);
 							 sommac = sommaC(sommac ,mat[j][i]);
 							 
-							 //sommar = sommaR(sommar, mat[i][j]);
 							 //System.out.println(sommar + "+" + mat[i][j]);
+							 sommar = sommaR(sommar, mat[i][j]);
 						 }
 						 System.out.println(sommac);
 						 System.out.println();
 						  
-						//if(sommar == sommac){result = true;}
-						//else{result = false; break;}
+						if(sommar == sommac){result = true;}
+						else{result = false; break;}
 					 }
 					
-					//----------
 					
 					
 		}else{
@@ -111,4 +109,4 @@ public class ExamTest1{
 		return mat; 
 	} 
 }
-
+x
