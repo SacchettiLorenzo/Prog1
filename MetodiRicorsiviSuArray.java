@@ -26,6 +26,8 @@ public class MetodiRicorsiviSuArray {
                 result = 0;
             }
         } else {
+            //FIXME: In questo modo genero ogni volta dei nuovi array occupando memoria.
+            //TODO: il metodo va creato con 3 parametri formali (array, indici di sinistra, indici di destra)
             int[] left = new int[a.length / 2];
             int[] right = new int[a.length - left.length];
 
