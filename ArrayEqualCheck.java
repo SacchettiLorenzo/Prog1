@@ -1,4 +1,5 @@
 import java.util.Arrays;
+// check the content of the array, matrix
 public class ArrayEqualCheck{
     public static void main(String[] arg){
         int[] v1 = {10,20,30,40,50};
