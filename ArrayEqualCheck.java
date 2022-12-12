@@ -1,5 +1,5 @@
 import java.util.Arrays;
-// ciao test provas
+// try to use array equals and deep equals
 public class ArrayEqualCheck{
     public static void main(String[] arg){
         int[] v1 = {10,20,30,40,50};
