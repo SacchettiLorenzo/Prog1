@@ -4,6 +4,8 @@ public class CoarianteControvariante {
         stampaArrayRicCon(dataset);
         stampaArrayRicCov(dataset);
         stampaArrayRicDicotomic(dataset);
+
+        
     }
 
     // NOTE - stampa controvariante
@@ -20,7 +22,7 @@ public class CoarianteControvariante {
         stampaArrayRicCon(x, 0);
     }
 
-    static void stampaArrayRicCon(int[] x, int i) {
+    private static void stampaArrayRicCon(int[] x, int i) {
         if (i < x.length) {
             System.out.println(x[i] + " ");
             stampaArrayRicCon(x, i + 1);
@@ -35,7 +37,7 @@ public class CoarianteControvariante {
         stampaArrayRicCov(x, x.length - 1);
     }
 
-    static void stampaArrayRicCov(int[] x, int i) {
+    private static void stampaArrayRicCov(int[] x, int i) {
         if (i >= 0) {
             System.out.println(x[x.length - 1 - i] + "");
             stampaArrayRicCov(x, i - 1);
@@ -48,7 +50,7 @@ public class CoarianteControvariante {
         stampaArrayRicDicotomic(x, 0, x.length - 1);
     }
 
-    static void stampaArrayRicDicotomic(int x[], int left, int right) {
+    private static void stampaArrayRicDicotomic(int x[], int left, int right) {
         int mid = (left + right) / 2;
 
         if (left != right) {
@@ -60,3 +62,5 @@ public class CoarianteControvariante {
     }
 
 }
+
+

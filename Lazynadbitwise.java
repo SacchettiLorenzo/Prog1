@@ -10,5 +10,8 @@ class Lazyandbitwise{
         //NOTE - BITWISE
         System.out.println((a!=0) & (b/a > 100)); // vengono considerati entrambi gli statement (rispetta la tavola di verità &). se ci sono varaibili intere e non booleane esegue l'operazione & tra bit
         System.out.println((a!=0) | (b/a > 100)); // vengono considerati entrambi gli statement (rispetta la tavola di verità |). se ci sono varaibili intere e non booleane esegue l'operazione | tra bit
+        
+        System.out.println(~b); // esegue il not sui bit
+        System.out.println((b<<2)); // esegue lo shift dei bit a sinistra di 2 posizioni
     }
 }
