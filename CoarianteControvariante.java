@@ -1,11 +1,10 @@
+import java.util.Arrays;
 public class CoarianteControvariante {
     public static void main(String[] args) {
         int[] dataset = { 10, 20, 30, 50, 60, 4, 3, 3, 576, 12, 678 };
-        stampaArrayRicCon(dataset);
-        stampaArrayRicCov(dataset);
-        stampaArrayRicDicotomic(dataset);
-
-        
+        //stampaArrayRicCon(dataset);
+        //stampaArrayRicCov(dataset);
+        //stampaArrayRicDicotomic(dataset);
     }
 
     // NOTE - stampa controvariante

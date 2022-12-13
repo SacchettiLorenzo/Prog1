@@ -14,15 +14,19 @@ public class mergeSort {
             int[] sx,dx;
             sx = merge(dataset, left, mid);
             dx = merge(dataset, mid+1, right);
-            int k=0;
-            for (int i = 0; i < dx.length; i++) {
-                for (int j = 0; j < sx.length; j++) {
-                    if(dx[i]>sx[j]){
-                        result[k] = sx[j];
-                        j++;
+            //FIXME - merge di sx e dx
+            int k = 0;
+            for (int i = 0; i < sx.length; i++) {
+                for (int j = 0; j < dx.length; j++) {
+                    if(dx[j] < sx[i]){
+                        result[k] = dx[j];
                         k++;
+                        break;
+                    }else{
+                        result[k] = sx[i];
+                        k++;
+                        break;
                     }
-                    else result[k] = dx[i];
                 }
             }
             
